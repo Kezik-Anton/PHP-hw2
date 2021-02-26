@@ -182,18 +182,15 @@
 
 <?php 
 
-    $n = 5;
+    $n = 8;
+    $string = '';
+
+    for ($j = 1; $j <= $n; $j++) {
+        $string .= '*';
+    }
 
     for ($i = 1; $i <= $n; $i++) {
-        
-        $string = '';
-
-        for ($j = 1; $j <= $n; $j++) {
-            $string .= '*';
-        }
-
         echo $string . '<br />';
-
     }
 
 ?>
